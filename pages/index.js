@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Krisullis <a href="https://nextjs.org">Next.js!</a>
+          Krisullis 
         </h1>
       
         
