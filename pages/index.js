@@ -17,7 +17,7 @@ export default function Home() {
         
 
         <div className={styles.grid}>
-          <a href="/_about" className={styles.card}>
+          <a href="/about" className={styles.card}>
             <h3>Welcome &rarr;</h3>
             <p>Here's where your Fun and Learning Adventure Begins ...</p>
           </a>
