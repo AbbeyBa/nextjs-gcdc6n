@@ -9,7 +9,7 @@ export default function VideoPlayer(){
   
     return (
      
-       <main className={styles.mainabout}>
+       
       <div className={styles.playerwrapper}>
         <ReactPlayer
           className={styles.reactplayer}
@@ -19,7 +19,7 @@ export default function VideoPlayer(){
           playing={ isPlaying }
         />
       </div>
-   </main>
+   
     )
   }
 
