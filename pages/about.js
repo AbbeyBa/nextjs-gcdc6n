@@ -21,8 +21,11 @@ export default function about(){
         />
       </div>
    
+
+          
     )
   }
+  
 
 
 
