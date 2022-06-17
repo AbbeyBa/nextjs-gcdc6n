@@ -1,15 +1,15 @@
 import styles from '../styles/Home.module.css';
 import ReactPlayer from 'react-player/lazy';
 import { useState } from 'react';
-
+import React from 'react';
 
 
 export default function about(){
   
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [isPlaying] = useState(true);
   
     return (
-     
+       
        
       <div className={styles.playerwrapper}>
         <ReactPlayer
