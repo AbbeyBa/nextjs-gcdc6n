@@ -9,7 +9,7 @@ export default function Home() {
         <title>Krisullis</title>
       </Head>
 
-      <main className={styles.main}>
+      <main className={styles.mainabout}>
         <h1 className={styles.title}>
           Krisullis
         </h1>

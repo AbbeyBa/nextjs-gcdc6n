@@ -8,6 +8,8 @@ export default function VideoPlayer(){
   const [isPlaying, setIsPlaying] = useState(true);
   
     return (
+     
+       <main className={styles.mainabout}>
       <div className={styles.playerwrapper}>
         <ReactPlayer
           className={styles.reactplayer}
@@ -17,6 +19,7 @@ export default function VideoPlayer(){
           playing={ isPlaying }
         />
       </div>
+   </main>
     )
   }
 
