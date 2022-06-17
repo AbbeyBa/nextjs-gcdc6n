@@ -3,6 +3,7 @@ import ReactPlayer from 'react-player/lazy';
 import { useState } from 'react';
 
 
+
 export default function about(){
   
   const [isPlaying, setIsPlaying] = useState(true);
