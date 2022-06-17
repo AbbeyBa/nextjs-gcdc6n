@@ -18,10 +18,9 @@
 }
 
 .mainabout {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  background-color: #0070f3;
+  color: rgb(211, 219, 219);
+  background-color: #05020f;
+ 
   
 }
 
@@ -73,7 +72,7 @@
 }
 
 .code {
-  background: #fafafa;
+  color: white;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;

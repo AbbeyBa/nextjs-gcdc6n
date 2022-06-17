@@ -1,6 +1,6 @@
 import styles from '../styles/Home.module.css';
 import ReactPlayer from 'react-player/lazy';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import React from 'react';
 
 
@@ -9,7 +9,7 @@ export default function about(){
   const [isPlaying] = useState(true);
   
     return (
-       
+      <body className={styles.mainabout}> 
        
       <div className={styles.playerwrapper}>
         <ReactPlayer
@@ -20,10 +20,14 @@ export default function about(){
           playing={ isPlaying }
         />
       </div>
-   
+      <div className={styles.grid}>
+      <p classname={styles.code}>Get in Touch With Us </p>
+      </div>
+   </body>
 
           
     )
+    
   }
   
 
