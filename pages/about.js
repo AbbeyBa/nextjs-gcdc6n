@@ -15,8 +15,8 @@ export default function about(){
         <ReactPlayer
           className={styles.reactplayer}
           url='https://vimeo.com/721178908'
-         /* width='100%'
-          height='100%' */
+          width='100%'
+          height='100%' 
           playing={ isPlaying }
         />
       </div>
