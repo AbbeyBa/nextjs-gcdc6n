@@ -20,8 +20,10 @@
 .mainabout {
   color: rgb(211, 219, 219);
   background-color: #05020f;
-  
  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   
 }
 
@@ -81,6 +83,8 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
     justify-content: center; 
     text-align: center; 
+    display: flex;
+    align-items: center;
 }
 
 .grid {
