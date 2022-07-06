@@ -18,9 +18,13 @@ export default function about(){
           width='100%'
           height='100%' 
           playing={ isPlaying }
+
+
         />
+        
+      
       </div>
-      <div className={styles.grid}>
+      <div>
       <p classname={styles.code}>Get in Touch With Us </p>
       </div>
    </body>
