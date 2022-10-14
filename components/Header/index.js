@@ -1,11 +1,11 @@
 import React from 'react'
-import authUser from '../../hooks/authUser'
+import authUser from '../hooks/authUser'
 import { Disclosure, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import MenuLogin from './menuLogin'
 import MenuNotLogin from './menuNotLogin'
 import Navigation from './navigation'
-import classNames from '../../utils/classsesNames'
+import classNames from '../utils/classNames'
 
 export default function Header() {
   return (

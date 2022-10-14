@@ -1,9 +1,9 @@
-import { Fragment } from 'react';
-import { Menu, Transition } from '@headlessui/react';
-import { UserCircleIcon } from '@heroicons/react/outline';
-import classNames from '../../utils/classsesNames';
+import { Fragment } from 'react'
+import { Menu, Transition } from '@headlessui/react'
+import { UserCircleIcon } from '@heroicons/react/outline'
+import classNames from '../utils/classNames'
 
-import { supabase } from '../../utils/initSupabase';
+import { supabase } from '../utils/initSupabase'
 
 const MenuLogin = () => (
   <Menu as="div" className="ml-3 relative">

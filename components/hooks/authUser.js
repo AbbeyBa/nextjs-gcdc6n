@@ -35,7 +35,7 @@ export const UserContextProvider = (props) => {
   const [user, setUser] = useState(false);
 
   useEffect(() => {
-    const session = supabase.auth.session();
+    const session = supabase.auth.getSession();
     setSession(session);
     setUser(session?.user ?? false);
     const { data: authListener } = supabase.auth.onAuthStateChange(
